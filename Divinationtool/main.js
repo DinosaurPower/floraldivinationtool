@@ -44,7 +44,7 @@ form.addEventListener("submit", (e) => {
     btn.addEventListener('click', () => {
 
 
-        var x = document.getElementById("mySelect").options.length;
+        
         let rando = Math.floor(Math.random() * flowerImage.length);
         let randomAdvise = Math.floor(Math.random() * adviseList.length);
 
